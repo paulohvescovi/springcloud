@@ -1,4 +1,5 @@
 # Project exclude paths
 /core/target/
 /.idea
-/course/target
+/course/target/
+/course/.mvn/

@@ -19,11 +19,13 @@
         <nimbus-jose.version>7.0</nimbus-jose.version>
         <commons-lang3.version>3.8.1</commons-lang3.version>
         <swagger.version>2.9.2</swagger.version>
+        <spring-cloud.version>2020.0.0-SNAPSHOT</spring-cloud.version>
     </properties>
 
     <modules>
         <module>course</module>
         <module>core</module>
+        <module>discovery</module>
     </modules>
 
     <dependencies>
@@ -96,7 +98,7 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
+    
     <repositories>
         <repository>
             <id>spring-milestones</id>
